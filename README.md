@@ -42,10 +42,14 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Describe the four rules of the 'this' keyword.
 
-- The default rule is Window Binding which means the `this` keyword will be the window object when a function is invoked directly on the global context. Implicit Binding occurs when invoking objects' methods which means that the `this` keyword will be said object. New Binding occurs when creating new instances of a class which means the `this` keyword will be that instance object. Finally, Explicit Binding, occurs when we use `func.call()`, `func.apply()` or `func.bind()` to set the `this` keyword value to whatever we want it to be.
+- The default rule is Window Binding which means the `this` keyword will be the window object when a function is invoked directly on the global context.
+- Implicit Binding occurs when invoking methods which means that the `this` keyword will be the object it's called from.
+- New Binding occurs when creating `new` instances of a class/constructor which means that the `this` keyword will be that specific instanced object.
+- Explicit Binding occurs when we use `func.call()`, `func.apply()` or `func.bind()` to set the `this` keyword value to whatever we want it to be.
 
 5. Why do we need super() in an extended class?
-	We need `super()` in an extended class to properly inherit the parent class properties.
+
+- We need `super()` in an extended class to properly inherit the parent class properties.
 
 ## Project Set up
 
