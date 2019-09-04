@@ -30,31 +30,44 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+- The `.forEach` method loops through the array and executes the callback function for each element inside. The `.map` method also does that but returns a new array with the values returned on each iteration of the callback.
+
 2. What is the difference between a function and a method?
+
+- A `method` is a function that is inside an object and/or class. A `function` is generally in the global scope or inside other functions.
 
 3. What is closure?
 
+- A closure is a function and relates to the way that functions have access to variables. A closure only has access to inner and outer scope variables unless they're enclosed in a different closure/function.
+
 4. Describe the four rules of the 'this' keyword.
 
+- The default rule is Window Binding which means the `this` keyword will be the window object when a function is invoked directly on the global context.
+- Implicit Binding occurs when invoking methods which means that the `this` keyword will be the object it's called from.
+- New Binding occurs when creating `new` instances of a class/constructor which means that the `this` keyword will be that specific instanced object.
+- Explicit Binding occurs when we use `func.call()`, `func.apply()` or `func.bind()` to set the `this` keyword value to whatever we want it to be.
+
 5. Why do we need super() in an extended class?
+
+- We need `super()` in an extended class to properly inherit the parent class properties.
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add PM as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+- [x] You are now ready to build this project with your preferred IDE
+- [x] Implement the project on your Branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your Project Manager as a Reviewer on the Pull-request
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [x] Add your Project Manager as a Reviewer on the Pull-request
 - [ ] PM then will count the HW as done by  merging the branch back into master.
 
 
@@ -66,19 +79,19 @@ Your finished project must include all of the following requirements:
 
 ## Task 1: Objects and Arrays
 Test your knowledge of objects and arrays. 
-* [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
+* [x] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
 
 ## Task 2: Functions
 This challenge takes a look at callbacks and closures as well as scope. 
-* [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
+* [x] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
+* [x] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
 
 ## Task 4: Classes
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+* [x] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
